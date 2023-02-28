@@ -1,10 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
+
+}
+.App #Body{
+  height: 100vh;
+  background-color: rgb(240, 92, 92);
 }
 
 .App-logo {
-  height: 40vmin;
+  /* height: 40vmin; */
   pointer-events: none;
+}
+
+.App h1{
+  padding-top: 3rem;
+  font-weight: 750;
+  font-size: 5rem;
+  color: white;
+}
+.App h3{
+  padding-top: 5rem;
+  color: white;
+  font-family: sans-serif;
+}
+.App h2{
+  color: white;
+  font-size: medium;
+  padding-top: 3rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,7 +39,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,7 +48,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
